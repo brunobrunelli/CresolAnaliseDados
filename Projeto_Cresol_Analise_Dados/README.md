@@ -30,6 +30,8 @@ Informações de Saída em um arquivo .csv em mesma order dos itens da lista aba
 12. a quantidade de requisições que tiveram sucesso;
 13. a quantidade de requisições que foram redirecionadas;
 
+![alt text](https://github.com/brunobrunelli/CresolAnaliseDadosGit/blob/master/Projeto_Cresol_Analise_Dados/Picture/fluxo.png)
+
 ### Ferramentas Utilizadas
 
 * Python 3.7.3 / Pip 19.0.3
