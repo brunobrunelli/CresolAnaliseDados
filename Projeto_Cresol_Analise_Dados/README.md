@@ -14,7 +14,7 @@ LinkedIn: https://www.linkedin.com/in/brunobruneli/
 
 Neste projeto estaremos desenvolvendo uma lógica em Python para extração, transformação e carregamento (ETL) dos dados de um arquivo compactado (gzip) de Log de Serviços de Hospedagem. Onde será analisado e extraído informações estatísticas para acompanhamento do processo de geração de log.
 
-Informações de Saída em um arquivo .csv em mesma order dos itens da lista abaixo com base na análise dos dados de Log:
+Informações de saída em um arquivo .csv em mesma ordem dos itens da lista abaixo com base na análise dos dados de Log:
 
 1. os 5 (cinco) logins que mais efetuaram requisições;
 2. os 10 (dez) browsers mais utilizados;
@@ -64,7 +64,7 @@ Informações de Saída em um arquivo .csv em mesma order dos itens da lista aba
 
 ### Intruções de Execução
 
-1. Deverá ser realizado um gitClone do projeto disponível no diretório Git abaixo, podemos navegar até a pasta "..\Projeto_Cresol_Analise_Dados\Python" onde encontraremos o arquivo - "Analise_Dados_Cresol_Python.py". Esse arquivo poderá ser executado via cmd através do comando "python Analise_Dados_Cresol_Python.py".
+1. Deverá ser realizado um gitClone do projeto disponível no diretório Git abaixo, em seguida, podemos navegar até a pasta "..\Projeto_Cresol_Analise_Dados\Python" onde encontraremos o arquivo - "Analise_Dados_Cresol_Python.py". Esse arquivo poderá ser executado via cmd através do comando "python Analise_Dados_Cresol_Python.py".
 
 - [Projeto Git](https://github.com/brunobrunelli/CresolAnaliseDadosGit.git)
 - [Arquivo .py](https://github.com/brunobrunelli/CresolAnaliseDadosGit/blob/master/Projeto_Cresol_Analise_Dados/Python/Analise_Dados_Cresol_Python.py)
@@ -76,7 +76,7 @@ Informações de Saída em um arquivo .csv em mesma order dos itens da lista aba
 
 ### Conclusão
 
-Com este projeto podemos aperfeiçoar e expandir nosso conhecimento na linguagem python, junto a análise e extração de informações para tomada de decisão, onde o mesmo será encaminhado aos profissionais da área de dados da empresa Cresol para análise da lógica e resultados obtidos para o processo de seleção da vaga de Analista de Dados. Contudo espero que toda lógida e estrura do projeto atendam as espectativas necessárias para uma possível contratação.
+Com este projeto podemos aperfeiçoar e expandir nosso conhecimento na linguagem python, junto a análise e extração de informações para tomada de decisão, onde o mesmo será encaminhado aos profissionais da área de dados da empresa Cresol para análise da lógica e resultados obtidos para o processo de seleção da vaga de Analista de Dados. Contudo espero que toda lógica e estrura do projeto atendam as espectativas necessárias para uma possível contratação.
 
 Att Bruno Scovoli Bruneli
 
