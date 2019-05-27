@@ -35,10 +35,10 @@ def modifica_dados_dataframe(df_data):
     # Formatação da coluna de data e hora:
     df_data.timestamp = pd.to_datetime(df_data.timestamp, format='[%Y-%m-%dT%H:%M:%SZ]')
     
-    # Definindo a coluna de data e hora como indice do dataframe:
+    # Definindo a coluna de data e hora como índice do dataframe:
     df_data.set_index(df_data.timestamp, inplace=True)
 
-    # Extraindo  
+    # Extraindo somente o nome dos browsers:  
     df_data.browser = df_data.browser.apply(lambda x: x.split(" ")[0])
     
     return df_data
