@@ -40,7 +40,7 @@ Informações de saída em um arquivo .csv em mesma ordem dos itens da lista aba
 
 ### Módulos e Bibliotecas utilizadas
 
-* shlex / pandas / csv / gzip / shutil / datetime 
+* pandas / os / datetime 
 
 ### Criando o Ambiente - (Virtualenv)
 
@@ -64,15 +64,15 @@ Informações de saída em um arquivo .csv em mesma ordem dos itens da lista aba
 
 ### Intruções de Execução
 
-1. Deverá ser realizado um gitClone do projeto disponível no diretório Git abaixo, em seguida, podemos navegar até a pasta "..\Projeto_Cresol_Analise_Dados\Python" onde encontraremos o arquivo - "Analise_Dados_Cresol_Python.py". Esse arquivo poderá ser executado via cmd através do comando "python Analise_Dados_Cresol_Python.py".
+1. Deverá ser realizado um gitClone do projeto disponível no diretório Git abaixo, em seguida, podemos navegar até a pasta "..\Projeto_Cresol_Analise_Dados\Python" onde encontraremos o arquivo - "AnaliseDadosLogCresol.py". Esse arquivo poderá ser executado via cmd através do comando "python AnaliseDadosLogCresol.py".
 
 - [Projeto Git](https://github.com/brunobrunelli/CresolAnaliseDadosGit.git)
-- [Arquivo .py](https://github.com/brunobrunelli/CresolAnaliseDadosGit/blob/master/Projeto_Cresol_Analise_Dados/Python/Analise_Dados_Cresol_Python.py)
-- [Arquivo Notebook](https://github.com/brunobrunelli/CresolAnaliseDadosGit/blob/master/Projeto_Cresol_Analise_Dados/Python/Analise_Dados_Cresol_Python.ipynb)
+- [Arquivo .py](https://github.com/brunobrunelli/CresolAnaliseDadosGit/blob/master/Projeto_Cresol_Analise_Dados/Python/AnaliseDadosLogCresol.py)
+- [Arquivo Notebook](https://github.com/brunobrunelli/CresolAnaliseDadosGit/blob/master/Projeto_Cresol_Analise_Dados/Python/AnaliseDadosLogCresol.ipynb)
 
 2. O processo de extração e análise dos dados será iniciado informando na tela a data e hora do mesmo.
 3. Após o processo ser concluído e informado na tela a data e horário de conclusão, será gerado um arquivo ".csv" com os dados analisados conforme descritos e requisitados pelo projeto.
-4. O arquivo estará disponível na mesma pasta em que o projeto ".py" se encontra.
+4. O arquivo estará disponível na mesma pasta em que o projeto ".py" se encontram com o nome "resultado_analise_log.csv".
 
 ### Conclusão
 
