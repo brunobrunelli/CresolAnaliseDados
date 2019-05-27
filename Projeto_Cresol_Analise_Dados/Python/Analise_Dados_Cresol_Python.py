@@ -7,7 +7,7 @@
 # LinkedIn: https://www.linkedin.com/in/brunobruneli/
 
 # Descrição do Projeto:
-# Este código tem como objetivo a extração, limpesa, transformação, 
+# Este código tem como objetivo a extração, limpeza, transformação, 
 # análise e carregamento de todo conteúdo extraído de um arquivo de 
 # log de serviços de hospedagem proposto pelo teste de conhecimento 
 # da Cresol Confederação.  
