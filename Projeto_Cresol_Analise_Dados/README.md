@@ -64,9 +64,9 @@ Informações de Saída em um arquivo .csv em mesma order dos itens da lista aba
 
 1. Deverá ser realizado um gitClone do projeto disponível no diretório Git abaixo, podemos navegar até a pasta "..\Projeto_Cresol_Analise_Dados\Python" onde encontraremos o arquivo - "Analise_Dados_Cresol_Python.py". Esse arquivo poderá ser executado via cmd através do comando "python Analise_Dados_Cresol_Python.py".
 
-- [Projeto Git] (https://github.com/brunobrunelli/CresolAnaliseDadosGit.git)
-- [Arquivo .py] (https://github.com/brunobrunelli/CresolAnaliseDadosGit/blob/master/Projeto_Cresol_Analise_Dados/Python/Analise_Dados_Cresol_Python.py)
-- [Arquivo Notebook] (https://github.com/brunobrunelli/CresolAnaliseDadosGit/blob/master/Projeto_Cresol_Analise_Dados/Python/Analise_Dados_Cresol_Python.ipynb)
+- [Projeto Git](https://github.com/brunobrunelli/CresolAnaliseDadosGit.git)
+- [Arquivo .py](https://github.com/brunobrunelli/CresolAnaliseDadosGit/blob/master/Projeto_Cresol_Analise_Dados/Python/Analise_Dados_Cresol_Python.py)
+- [Arquivo Notebook](https://github.com/brunobrunelli/CresolAnaliseDadosGit/blob/master/Projeto_Cresol_Analise_Dados/Python/Analise_Dados_Cresol_Python.ipynb)
 
 2. O processo de extração e análise dos dados será iniciado informando na tela a data e hora do mesmo.
 3. Após o processo ser concluído e informado na tela a data e horário de conclusão, será gerado um arquivo ".csv" com os dados analisados conforme descritos e requisitados pelo projeto.
