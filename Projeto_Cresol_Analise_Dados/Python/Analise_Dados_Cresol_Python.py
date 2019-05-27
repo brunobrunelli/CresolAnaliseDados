@@ -19,7 +19,19 @@
 import shlex
 import pandas as pd
 import csv
+import gzip
+import shutil
 from datetime import datetime 
+
+# Extração do Arquivo TXT de um ZIP:
+
+def extrair_arquivo_gzip(nome_zip,nome_txt):
+    with gzip.open(nome_zip, 'rb') as f_gzip:
+        with open(nome_txt, 'wb') as f_txt:
+            shutil.copyfileobj(f_gzip, f_txt)
+    
+    return nome_txt
+
 
 # Extração de dados a partir de um arquivo ".log":
 
@@ -186,8 +198,11 @@ def grava_csv(nome_arquivo,lista_valores):
 
 # Chamada das funções listadas acima:
 
+# Realiza a extração do arquivo 
+arquivo_txt = extrair_arquivo_gzip('apache.log.gz','apache.log.txt')
+
 # Realiza a leitura do arquivo:
-result_data = extrair_dados_arquivo("apacheLogTest.log")
+result_data = extrair_dados_arquivo(arquivo_txt)
 
 # Realiza a limpeza dos dados extraídos:
 lista_result_log = tratar_dados(result_data)
@@ -196,4 +211,4 @@ lista_result_log = tratar_dados(result_data)
 lista_analise_log = analisa_dados(lista_result_log)
 
 # Realiza a gravação dos dados:
-grava_csv("apacheLogTest_analisado_by_BrunoBruneli",lista_analise_log)
+grava_csv('apacheLogTest_analisado_by_BrunoBruneli',lista_analise_log)
