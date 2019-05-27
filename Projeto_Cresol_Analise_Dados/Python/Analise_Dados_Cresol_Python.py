@@ -198,6 +198,8 @@ def grava_csv(nome_arquivo,lista_valores):
 
 # Chamada das funções listadas acima:
 
+print('Processo Iniciado - %s ...\n' %str(datetime.now()))
+
 # Realiza a extração do arquivo 
 arquivo_txt = extrair_arquivo_gzip('apache.log.gz','apache.log.txt')
 
@@ -212,3 +214,5 @@ lista_analise_log = analisa_dados(lista_result_log)
 
 # Realiza a gravação dos dados:
 grava_csv('apacheLogTest_analisado_by_BrunoBruneli',lista_analise_log)
+
+print('Processo Conclído - %s ...' %str(datetime.now()))
